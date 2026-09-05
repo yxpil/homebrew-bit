@@ -1,9 +1,9 @@
 cask "bit" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.9"
-  sha256 arm:   "30ffd41a8d0907ffc727121b7309a195ae09a92b80219cfd1611a5a92fbebeb3",
-         intel: "391ed80c4f1b41d18ba41447cc84a392d56a18524b33ec34b7df03eae6c2863e"
+  version "0.5.11"
+  sha256 arm:   "8b4c8d059671a6f61e39f3c34df7ce5f9933d591f32fd6e44d893cf16d7b03c4",
+         intel: "08121544f26c24c1eae5c180bce32d1e5f02f08e310163b25c61267d090c11da"
 
   url "https://github.com/yxpil/bit/releases/download/v#{version}/BIT_#{version}_#{arch}.dmg"
   name "BIT"
